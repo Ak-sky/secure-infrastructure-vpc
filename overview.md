@@ -42,6 +42,7 @@ This deployable architecture supports these features:
 - Key management: Adds key management by integrating the {{site.data.keyword.keymanagementservicefull_notm}} service or the {{site.data.keyword.hscrypto}}. These key management services help you create, manage, and use encryption keys to protect your sensitive data.
 - Edge networking: Isolates and speeds traffic to the public internet by using an edge VPC in a specific location, if enabled
 - Flow Logs and Activity tracking: Integrates these services to enhance the observability and auditing of your VPC infrastructure.
+- Configures existing CBR (Context-based restrictions) rules to allow traffic to flow only from the landing zone VPCs to specific cloud services.
 
 
 For more information about the components of VPCs, see [VPC concepts](/docs/framework-financial-services?topic=framework-financial-services-vpc-architecture-concepts).
